@@ -1,5 +1,5 @@
 #include <bus.h>
-
+#include <cart.h>
 u8 bus_read(u16 address)
 {
     if (address < 0x8000)
